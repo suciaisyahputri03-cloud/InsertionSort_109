@@ -17,4 +17,12 @@ void input (){ //procedure input
         }
     }
     cout << endl;
+    cout << "==============================================";
+    cout << "============masukkan element array============";
+    cout << "==============================================";
+
+    for (int i = 0; i < n; i++){
+        cout << "data ke-" << (i+i) << ": ";
+        cin >> arr[i];
+    }
 }
