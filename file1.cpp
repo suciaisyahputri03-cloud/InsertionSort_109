@@ -50,3 +50,14 @@ void insertionssort()
 
     }
 }
+
+void display(){
+    cout << endl;
+    cout << "=================";
+    cout << "\nElement array" << endl;
+    cout << "\n===============";
+
+    for(int j = 0; j < n; j++){
+        cout << endl;
+    }
+}
